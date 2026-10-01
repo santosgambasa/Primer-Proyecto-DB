@@ -1,0 +1,21 @@
+{
+  "name": "TP Base de Datos",
+  "version": "1.0.0",
+  "description": "Una evaluacion de Base de Datos N1",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "node ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "mongoose": "^9.10.2"
+  }
+}
